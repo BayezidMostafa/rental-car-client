@@ -77,7 +77,7 @@ const Drawer = () => {
                                 </span>
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>No information available right now</p>
                             </div>
                         </div>
                         <div className="collapse border">
@@ -93,7 +93,7 @@ const Drawer = () => {
                                 </span>
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>No information available right now</p>
                             </div>
                         </div>
                         <div className="collapse border">
@@ -108,7 +108,7 @@ const Drawer = () => {
                                 </span>
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>No information available right now</p>
                             </div>
                         </div>
                         <div className="collapse border">
@@ -122,11 +122,11 @@ const Drawer = () => {
                                 </span>
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>No information available right now</p>
                             </div>
                         </div>
                         <div className='mt-5'>
-                            <p className='text-gray-600'>Found cars: <span className='font-bold'>12324</span></p>
+                            <p className='text-gray-600'>Found cars: <span className='font-bold'>12,324</span></p>
                             <div className='flex mt-5'>
                                 <button className='btn w-[15rem] mr-2 bg-orange-600 bg-opacity-40 text-orange-600 border-0 hover:bg-orange-300'>Show</button>
                                 <button className='btn bg-orange-600 bg-opacity-40 text-orange-600 border-0 hover:bg-orange-300'>X</button>

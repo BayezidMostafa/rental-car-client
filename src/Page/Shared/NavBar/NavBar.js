@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Bars3Icon, MagnifyingGlassCircleIcon } from '@heroicons/react/24/solid'
+import { Bars3Icon } from '@heroicons/react/24/solid'
 
 const NavBar = () => {
 
 
     return (
-        <div className="navbar bg-base-100 container mx-auto">
+        <div className="navbar py-5 container mx-auto">
             <div className="navbar-start">
                 <Link to='/' className='hidden md:block'>
                     <p className='text-2xl font-bold text-orange-400 md:text-3xl uppercase'>Auto World</p>

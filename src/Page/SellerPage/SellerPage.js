@@ -2,7 +2,7 @@ import React from 'react';
 
 const SellerPage = () => {
     return (
-        <div>
+        <div className='container'>
             <p>Sell your car</p>
         </div>
     );
