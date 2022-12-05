@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import React from 'react';
 import Card from './Card';
+import { BounceLoader } from 'react-spinners';
 
 const Content = () => {
 
@@ -13,8 +14,9 @@ const Content = () => {
         }
     })
 
-    console.log(cardata);
-
+    if(isLoading){
+        return <div className='min-h-[80vh] flex justify-center items-center'><BounceLoader color="#FFA500" /></div>
+    }
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 container mx-auto my-10'>
             {

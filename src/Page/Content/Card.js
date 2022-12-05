@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ data }) => {
     console.log(data);
-    const { car_name, engine, location, milage:mileage, picture, price, transmission } = data;
+    const { car_name, engine, location, mileage, picture, price, transmission } = data;
     return (
         <div className="card shadow-md bg-white rounded">
             <div className='flex justify-between p-8'>

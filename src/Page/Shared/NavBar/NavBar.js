@@ -40,7 +40,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className='navbar-end'>
-                <Link to='/sellerpage'><button className='btn bg-orange-800 bg-opacity-25 text-orange-600 hover:bg-orange-200 border-none mr-3'>Sell Your Car</button></Link>
+                <Link to='/sellerpage'><button className='btn bg-orange-600 bg-opacity-60 hover:bg-orange-400 border-none mr-3'>Sell Your Car</button></Link>
                 <label htmlFor="my-drawer"><Bars3Icon className='w-10 h-10 hover:text-orange-500 cursor-pointer duration-300 hover:rotate-180' /></label>
             </div>
         </div>
